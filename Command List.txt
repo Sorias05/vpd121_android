@@ -1,0 +1,17 @@
+-----Hosting Ubuntu-----
+docker build -t vpd121_image .
+docker run -d --restart=always -v /var/www/android/vpd121.itstep.click/images:/app/images --name vpd121_container -p 8431:80 vpd121_image
+docker run -d --restart=always -v d:\images:/app/images --name vpd121_container -p 8431:80 vpd121_image
+
+--------------------------------
+docker ps -l
+docker images --all
+
+docker ps -a
+
+docker stop vpd121_container
+docker rm vpd121_container
+
+docker rmi vpd121_image
+
+

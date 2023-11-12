@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/m_home"
+        android:title="До хати"
+        />
+    <item android:id="@+id/m_create"
+        android:title="Додати категорію"
+        />
+</menu>
